@@ -55,7 +55,26 @@
 # print(name_list[1][0])
 
 
+# Change List Items---
+
+# colors = ["Pink", "Blue", "Red"]
+# print("original List: ", colors)
+
+# colors[2] = "Green"
+# print("Updated List: ", colors)
+
+
 # Taking Input of a Python List---
+
+# x = 'xyz'
+
+# result = list(x)
+# print(result)
+
+# num = input("Enter what you want to show to you")
+
+# print(num)
+
 
 # string = input("Enter elements (Space-Separated):")
 
@@ -63,7 +82,57 @@
 # print('The list is:',lst)
 
 
-name = input("Enter Names (space-separated):")
+# name = input("Enter Names (Space-Separated):")
 
 # name_list = name.split()
-print(name)
+# print('The names is: ',name_list)
+
+# bikes = input("Enter Bike's Name's :")
+
+# name_bike = bikes.split()
+# print("The Bike's List: ",name_bike)
+
+
+
+# Add Elements to a Python List---
+
+# fruits = ['Apple', 'Orange', 'Jack']
+# print('Original list:', fruits)
+
+# fruits.append('Mango')
+# print('Updated List: ',fruits)
+
+# The insert() method adds an element at the specified index. For example,---
+
+
+# fruits.insert(2, 'Straberry')   
+# print('Another update List', fruits)
+
+
+# Remove an Item From a List---
+
+num = [1,2,3,4,5]
+print(num)
+
+num.remove(4)
+print(num)
+
+var = ["Damo", "Dar", "Sahu"]
+print('Orginal List',var)
+
+var.remove('Dar')
+print('\nUpdated List: ',var) 
+
+
+# Iterating Through a List---
+
+# students = ["Ahuti", "Damodar", "Silu", "Popun"]
+
+# for student in students:
+#     print(student)
+
+# output:
+# Ahuti
+# Damodar
+# Silu
+# Popun
