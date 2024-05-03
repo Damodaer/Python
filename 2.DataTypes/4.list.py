@@ -178,17 +178,17 @@
 
 # Python extend() Vs append()---
 
-a = [1,2,3]
-b = [1,2,3]
-c = (4,5)
+# a = [1,2,3]
+# b = [1,2,3]
+# c = (4,5)
 
-# add items of b to the a list
-a.extend(c)
-print(a)
+# # add items of b to the a list
+# a.extend(c)
+# print(a)
 
-# add b itself to the a list
-a.append(c)
-print(a)
+# # add b itself to the a list
+# a.append(c)
+# print(a)
 
 # Remove an Item From a List---
 
@@ -224,9 +224,118 @@ print(a)
 # Damodar
 # Silu
 # Popun
-
+ 
 # gadgets = ["Mobile", "Laptop", "KeyBoard", "Mouse"]
 
 # for gadget in gadgets:
 #     print(gadget) 
 
+
+# Python List pop()---
+
+# num = [1,2,3,4,5]
+# remove_num = num.pop(2)
+
+# print('Removed Element',remove_num)
+# print('Updated List',num)
+
+# output---
+# Removed Element 3
+# Updated List [1, 2, 4, 5]
+
+
+# name = ["Damodar", "Dar", "Sahu"]
+# remove_name = name.pop(1)
+
+# print('Remove Word: ',remove_name)
+# print("Updated Name: ",name)
+
+# output---
+# Remove Word:  Dar
+# Updated Name:  ['Damodar', 'Sahu']  
+
+# languages = ["Python", "JavaScript", "C++", "Hindi","C"]
+# remove_languages = languages.pop(3)
+
+# print(remove_languages,languages)
+# print(languages)
+
+# output--
+# Hindi ['Python', 'JavaScript', 'C++', 'C']
+# ['Python', 'JavaScript', 'C++', 'C']
+
+# data_types = ["String","Number","List","Tuple","Set","Dist","Telugu"]
+
+# # remove and return the last item
+# print('When index is not passed:')
+# print('\nRemoved Element: ',data_types.pop())
+# print('Updated List: ',data_types)
+
+# # remove and return the last item
+# print('\nWhen -1 is passed: ')
+# print('\nRemoved Element: ',data_types.pop(-1))
+# print('Updated List: ',data_types)
+
+# # remove and return the third last item
+# print('\nWhen -3 is passed: ')
+# print('\nRemoved Element: ',data_types.pop(-3))
+# print('Updated List: ',data_types)
+
+# output---
+# When index is not passed:
+
+# Removed Element:  Telugu
+# Updated List:  ['String', 'Number', 'List', 'Tuple', 'Set', 'Dist']
+
+# When -1 is passed:
+
+# Removed Element:  Dist
+# Updated List:  ['String', 'Number', 'List', 'Tuple', 'Set']
+
+# When -3 is passed:
+
+# Removed Element:  List
+# Updated List:  ['String', 'Number', 'Tuple', 'Set']
+
+
+# Python List clear()---
+# students = ['Damo','Dar','sahu']
+
+# students.clear()
+# print(students)
+
+# lst = [{1,2},('w'),[1.1,2.4,4.1]]
+
+# lst.clear()
+# print(lst)
+
+
+# lst = [{1,2},('w'),[1.1,2.4,4.1]]    #error
+
+# lst.clear(2)
+# print(lst)
+
+
+# lst = [{1,2},('w'),[1.1,2.4,4.1]]    #error
+
+# lst.clear(('w'))
+# print(lst)
+
+# Python List count()---
+
+# duplicate_names = ['Damo','sai','alekha','loku','pintu','alekha','pintu','pintu','pintu']
+
+# check = duplicate_names.count('pintu')
+
+# print(duplicate_names)
+# print('\nThe Duplicate Name is: ',check)
+
+
+
+random = ['a', ('a', 'b'), ('a', 'b'), [3, 4]]
+
+count = random.count(('a', 'b'))
+print("The count of ('a', 'b') is: ", count)
+
+count = random.count([3, 4])
+print("The Count of [3, 4] is: ", count)
