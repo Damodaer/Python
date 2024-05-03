@@ -63,6 +63,7 @@
 # colors[2] = "Green"
 # print("Updated List: ", colors)
 
+# Python has many useful list methods that make it really easy to work with lists.---
 
 # Taking Input of a Python List---
 
@@ -102,26 +103,113 @@
 # fruits.append('Mango')
 # print('Updated List: ',fruits)
 
-# The insert() method adds an element at the specified index. For example,---
+# animals = ['Dog', 'Cat', 'Cow']
 
+# wild_animals = ['Tiger', 'Fox']
+
+# animals.append(wild_animals)
+# print(animals)
+
+# The insert() method adds an element at the specified index. For example,---
 
 # fruits.insert(2, 'Straberry')   
 # print('Another update List', fruits)
 
+# name = ["D","a","m","o","d","r"]
+# print(len(name))
+# name.insert(5,"a")
+# print(name)
+
+# prime_numbers = [2,3,5,7,]
+
+# # insert 11 at index 4
+# prime_numbers.insert(4,11)
+# print(prime_numbers)
+
+# mixed_list = [{1,2},[5,6,7]]
+# add_tuple = (3,4)
+
+# mixed_list.insert(1,add_tuple)
+
+# print(mixed_list)
+
+# mixed_name = [{"Damo"},["Sahu"]]
+# add_string = ("Dar")
+
+# mixed_name.insert(1,add_string)
+
+# print(mixed_name)
+
+
+# Python List extend()---
+
+# number1 = [1,2,3]
+# number2 = [4,5,6]
+
+# number1.extend(number2)
+
+# print(f"number1 = {number1}")
+# print(f"number2 = {number2}")
+
+
+# first_name = ["Damodar"]
+# last_name = ["Sahu"]
+
+
+# first_name.extend(last_name)
+# print(f"Full name = {first_name}")
+
+# languages1 = ["Hindi","English"] 
+# language2 = ["Odia","Telugu"]
+
+# language2.extend(languages1)
+# print('Speaking Languages: ',language2)
+
+# brands = ["Tata","Mahindra"]
+# print(brands)
+
+# brands_tuple = ("Suzuki","Hyundai","kia")
+# brands.extend(brands_tuple)
+# print("\nUpdated List: ",brands)
+
+# brands_set = {"Skoda","Volkwagen","BMW","Audi"}
+# brands.extend(brands_set)
+# print(brands)
+
+# Python extend() Vs append()---
+
+a = [1,2,3]
+b = [1,2,3]
+c = (4,5)
+
+# add items of b to the a list
+a.extend(c)
+print(a)
+
+# add b itself to the a list
+a.append(c)
+print(a)
 
 # Remove an Item From a List---
 
-num = [1,2,3,4,5]
-print(num)
+# num = [1,2,3,4,5]
+# print(num)
 
-num.remove(4)
-print(num)
+# num.remove(4)
+# print(num)
 
-var = ["Damo", "Dar", "Sahu"]
-print('Orginal List',var)
+# var = ["Damo", "Dar", "Sahu"]
+# print('Orginal List',var)
 
-var.remove('Dar')
-print('\nUpdated List: ',var) 
+# var.remove('Dar')
+# print('\nUpdated List: ',var) 
+
+# output:
+# [1, 2, 3, 4, 5]
+# [1, 2, 3, 5]
+# Orginal List ['Damo', 'Dar', 'Sahu']
+
+# Updated List:  ['Damo', 'Sahu']  
 
 
 # Iterating Through a List---
@@ -136,3 +224,9 @@ print('\nUpdated List: ',var)
 # Damodar
 # Silu
 # Popun
+
+# gadgets = ["Mobile", "Laptop", "KeyBoard", "Mouse"]
+
+# for gadget in gadgets:
+#     print(gadget) 
+
