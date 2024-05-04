@@ -121,3 +121,31 @@ var1 = ('Hello',)
 
 print(var1)
 print(type(var1))
+
+
+# output---
+# ('Hello',)
+# <class 'tuple'>
+
+# Tuple Methods---
+
+
+vowel = ('a','r','f','w','r','x','r')
+
+count = vowel.count('r')
+
+print(count)
+
+# output---
+# 3
+
+random = ('a',('a','b'),[3,4],('a','b'))
+
+count = random.count('a')
+print("The count of 'a' is :", count)
+
+count = random.count(('a','b'))
+print("\nThe count of('a','b') is: ",count)
+
+count = random.count([3,4])
+print("\nThe count of [3,4] is: ",count)

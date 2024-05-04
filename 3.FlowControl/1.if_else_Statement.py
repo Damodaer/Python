@@ -1,13 +1,32 @@
-number  = 10
+# number  = 10
 
-if number > 1:
-    print('Number is positive')
+# if number > 1:
+#     print('Number is positive')
 
-print('This statement always executes')
+# print('This statement always executes')
 
-number1 = 11
 
-if number1 < -1:
-    print("The given number is Nagetive")
+# num = 1
 
-print('givin num not')
+# if num > -1:
+#     print("The given number is negative")
+
+# print('This statement always executes')
+
+# Python if...else Statement---
+
+
+number = 10
+
+if number > 0:
+    print('The given number is smaller then default number')
+
+else:
+    print('The given number is biger then default number')
+
+if number > 11:
+        print('The given number is smaller then default number')
+
+
+else:
+     print('The given number is biger then default number')
