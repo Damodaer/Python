@@ -332,10 +332,35 @@
 
 
 
-random = ['a', ('a', 'b'), ('a', 'b'), [3, 4]]
+# random = ['a', ('a', 'b'), ('a', 'b'), [3, 4]]
 
-count = random.count(('a', 'b'))
-print("The count of ('a', 'b') is: ", count)
+# count = random.count(('a', 'b'))
+# print("The count of ('a', 'b') is: ", count)
 
-count = random.count([3, 4])
-print("The Count of [3, 4] is: ", count)
+# count = random.count([3, 4])
+# print("The Count of [3, 4] is: ", count)
+
+# name = ['Damo','ahuti','sai','Damo','Damo']
+
+# count = name.count('Damo')
+# print(count)
+
+
+# Python List sort()---
+
+# numbers = ['4','2','6','3','5','1']
+
+# numbers.sort()
+# print(numbers)
+
+# numbers.sort(reverse=True)
+# print(numbers)
+
+
+cities = ['Mumbai','Hydrabad','Bhubneswar','Kolkota','Vizag']
+
+cities.sort()
+print(f"Alpha Beat Sequance: {cities}")
+
+cities.sort(reverse=True)
+print(f"\nReverse Order: {cities}")
