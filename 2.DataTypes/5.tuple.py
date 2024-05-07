@@ -149,3 +149,11 @@ print("\nThe count of('a','b') is: ",count)
 
 count = random.count([3,4])
 print("\nThe count of [3,4] is: ",count)
+
+# output---
+# The count of 'a' is : 1
+
+# The count of('a','b') is:  2
+
+# The count of [3,4] is:  1
+
