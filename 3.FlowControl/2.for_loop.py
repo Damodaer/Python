@@ -95,9 +95,115 @@
 # for name,gender in zip(names,genders):
 #     print(name,"Is",gender)
 
-print("Popular Car Brands Popular Cars")
-brands = ["Tata","Mahindra","Suzuki","Skoda"]
-cars = ["Punch","Thar","Alto","Kushaq"]
+# print("Popular Car Brands Popular Cars")
+# brands = ["Tata","Mahindra","Suzuki","Skoda"]
+# cars = ["Punch","Thar","Alto","Kushaq"]
 
-for brand,car in zip(brands,cars):
-    print(brand,"Popular car is",car)
+# for brand,car in zip(brands,cars):
+#     print(brand,"Popular car is",car)
+
+
+# gadgets = ["Laptop","Mobile","HeadPhones"]
+# brands = ["Dell","Samsung","AKG k210"]
+
+# for gadget,brand in zip(gadgets,brands):
+#     print(f"Damodar want a {brand} brand {gadget}")
+
+
+# Python For Loop with Tuple---
+
+# t = ((1,2),(3,4),(5,6))
+# for a,b in t:
+#     print(a,b)
+
+# name = (("Damodar","Alekha"),("Sahu","Nayak"),("Ch.","P."),("Sai","Loku"))
+
+# for a,b in name:
+#     print(a,b)
+
+
+# Prints all letters except 'e' and 's'---
+
+# for letter in "Damodar sahu":
+#     if letter == 'a' or letter == 's' or letter == ' ':
+#         continue
+#     print('Current Letter: ', letter)
+
+# for word in "Hardwell David Guetta Afrojack Kshmr Stive Aoki Tiesto wiwek":
+#     if word == 'a' or word == 'e' or word == ' ':
+#         continue
+#     print("Current Letters: ", word)
+
+# for i in range(1,10):
+#     if i == 6:
+#         continue
+#     print(i)
+
+
+# for num in range(10,52):
+#     if num == 20 or num == 50:
+#         continue
+#     print(num)
+
+
+
+# for name in "damodar","alekha","loku","nuasa","sai","pintu":
+#     if name == "nuasa":
+#         continue
+#     print(name)
+
+# for i in range(1,10):
+#     if i == 3 or i == 5:
+#         continue
+#     print(f"The Current numbers are {i} this")
+
+# for i in range(1,11):
+#     if i == 6:
+#         break
+#     print(i)
+
+# for i in range(5):
+#     if i ==3:
+#         break
+#     print(i)
+
+  
+# s = 'Gangadhar mahapatro'
+
+# for letter in s:
+#     if letter == 'h':
+#         break
+#     print(letter)
+
+# s = "Gangadhar mahapatro gangadhar"
+
+# for letter in s:
+#     if letter == 'm':
+#         break
+#     print(letter)
+
+# num = 0 
+
+# for nums in range(11):
+#     num += 1
+#     if num == 8:
+#         break
+#     print(num)
+
+# num = 1
+
+# for i in range(10):
+#     num += 1
+#     if i == 5:
+#         break
+#     print(i)
+
+#  pass Statement---
+
+ls = ['a','d','g','s','r']
+
+for lettr in ls:
+    if (lettr == 'g'):
+        pass
+    else:
+        print(lettr)
