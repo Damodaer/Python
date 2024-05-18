@@ -182,6 +182,7 @@
 #         break
 #     print(letter)
 
+
 # num = 0 
 
 # for nums in range(11):
@@ -200,10 +201,15 @@
 
 #  pass Statement---
 
-ls = ['a','d','g','s','r']
+# ls = ['a','d','g','s','r']
 
-for lettr in ls:
-    if (lettr == 'g'):
-        pass
-    else:
-        print(lettr)
+# for lettr in ls:
+#     if (lettr == 'g'):
+#         pass
+#     else:
+
+
+
+for i in range(1,10):
+    print(i)
+    
