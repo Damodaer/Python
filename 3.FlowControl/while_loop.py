@@ -70,10 +70,32 @@
 #     print('Current Letter : ',a[i])
 #     i += 1
 
-a = 'Damodargoingtobed'
-i = 0
+# a = 'Damodargoingtobed'
+# i = 0
 
-while i < len(a):
-    i += 1
-    pass
-print('Value : ',i)
+# while i < len(a):
+#     i += 1
+#     pass
+# print('Value : ',i)
+
+# a = "Damodar sahu"
+# i = 0 
+
+# while i < len(a):
+#     i += 1
+#     pass
+# print("Value : ", i)
+
+# max = 5 
+# counter = 0
+
+# while counter < max:
+#  print(counter)
+#  counter +=1
+
+max = 10 
+counter = 0
+
+while counter < max:
+    print(counter)
+    counter += 2
