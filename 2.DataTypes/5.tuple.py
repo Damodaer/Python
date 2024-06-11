@@ -252,12 +252,44 @@
 # print(tuple3)
 
 # Slicing of a Tuple---
-tuple1 = ("Damodarsahu")
-print("\nRemove of first Element: ")
-print(tuple1[1:])
+# tuple1 = ("Damodarsahu")
+# print("\nRemove of first Element: ")
+# print(tuple1[1:])
 
-print("\nTuple after sequence of Element is reversed: ")
-print(tuple1[::-1])
+# print("\nTuple after sequence of Element is reversed: ")
+# print(tuple1[::-1])
 
-print("\nPrinting elements between Range 4-9: ")
-print(tuple1[4:9])
+# print("\nPrinting elements between Range 4-9: ")
+# print(tuple1[4:9])
+
+word = (True,False)
+print(all(word))
+
+word1 = (False,True)
+print(all(word1))
+
+word2 = (True,True,True,False)
+print(all(word2))
+
+num = [1,2,3]
+print(all(num))
+
+num1 = [1,2,-3,5]
+print(all(num1))
+
+# All elements of tuple are true
+t = (2, 4, 6)
+print(all(t))
+ 
+# All elements of tuple are false
+t = (0, False, False)
+print(all(t))
+ 
+# Some elements of tuple
+# are true while others are false
+t = (5, 0, 3, 1, False)
+print(all(t))
+ 
+# Empty tuple
+t = ()
+print(all(t))
